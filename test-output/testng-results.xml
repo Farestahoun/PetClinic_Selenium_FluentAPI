@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-25T11:03:25 CET" name="Default suite" finished-at="2022-02-25T11:03:27 CET" duration-ms="1534">
+    <groups>
+    </groups>
+    <test started-at="2022-02-25T11:03:25 CET" name="Default test" finished-at="2022-02-25T11:03:27 CET" duration-ms="1534">
+      <class name="tests.AddOwnersTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.AddOwnersTest@12468a38]" started-at="2022-02-25T11:03:23 CET" name="startDriver" finished-at="2022-02-25T11:03:25 CET" duration-ms="2215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="validAddOwnerTest()[pri:0, instance:tests.AddOwnersTest@12468a38]" started-at="2022-02-25T11:03:25 CET" name="validAddOwnerTest" finished-at="2022-02-25T11:03:26 CET" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAddOwnerTest -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddOwnersTest@12468a38]" started-at="2022-02-25T11:03:26 CET" name="screenshotOnFailure" finished-at="2022-02-25T11:03:27 CET" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validAddOwnerTest status=SUCCESS method=AddOwnersTest.validAddOwnerTest()[pri:0, instance:tests.AddOwnersTest@12468a38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.AddOwnersTest@12468a38]" started-at="2022-02-25T11:03:27 CET" name="stopDriver" finished-at="2022-02-25T11:03:27 CET" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.AddOwnersTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
